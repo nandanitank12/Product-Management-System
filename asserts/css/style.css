@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header-my{
+
+    background: url("../img/wp3.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    bottom:80px;
+}
+
+.text-1{
+    font-size: 27px;
+    margin-left: 80px;
+    margin-top: 3px;
+}
+.text-2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.query-btn{
+
+    margin-left: 80px;
+    width: 120px;
+}
+
+.query-txt{
+    
+    width: 60%;
+    
+}
+
+#my-div{
+
+    align-items: center;
+    margin: 50px 200px 50px 500px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
+
+groot{
+    --dark:#2b2d42;
+    --light:#abd5bd;
+}
+
+a{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2mm;
+    overflow: hidden;
+    font-size: x-large;
+    color: var(--dark);
+}
+
+li {
+    float: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-size: cover;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+.first {
+    margin-top: 1cm;
+    margin-left: 12cm;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 17px;
+    background-color: white;
+}
+
+.data {
+    padding-top: 2mm;
+}
+
+.l1 {
+    color: deepskyblue;
+    text-decoration: none;
+    text-align: center;
+    font-size: smaller;
+    padding: 4px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    border: 2px solid var(--dark);
+    box-shadow: 1px 3px 10px #e9ecef;
+}
+
+.l1:hover{
+    background-color:aqua;
+    color: var(--dark);
+}
+
+.i1
+{
+    width: 5cm;
+    height: 3cm;
+    padding-right: 1cm;
+}
+.t1
+{
+    margin-top: 1cm;
+    border: 1px ridge;
+    padding: 3mm;
+    width: 69%;
+}
+.top_a
+{
+    margin-left: 10cm;
+}
+.top_b
+{
+    font-size:x-large;
+}
+.i2
+{
+    width: 18cm;height: 10cm;margin-left: 3mm;
+}
+.data2
+{
+    text-align: center;
+}
+.edit{
+    padding-bottom: 0;color:green;border-color: yellow;
+    border: 2px solid var(--dark);
+    box-shadow: 1px 3px 10px #e9ecef;
+    margin-right: 5mm;
+}
+
+.edit:hover{
+    color: black;
+    background-color:yellow;
+}
+
+.delete
+{
+    padding-bottom: 0;color: red;border-color: red;
+    border: 2px solid var(--dark);
+    box-shadow: 1px 3px 10px #e9ecef;
+}
+
+.delete:hover{
+    color: white;
+    background-color:red;
+}
+
+.inp1
+{
+    width: 80%;height: 8mm;border: 1px ridge;margin-top: 5mm;
+}
+#z
+{
+    width: 80%;height: 8cm;border: 1px ridge;margin-top: 5mm;
+}
+#w
+{
+    padding-bottom: 0;color: deepskyblue;border-color: deepskyblue;
+    border: 2px solid var(--dark);
+    box-shadow: 1px 3px 10px #e9ecef;
+}
+#padd
+{
+    padding-top: 5mm;
+}
+
+#w:hover{
+    background-color:cyan;
+    color: black;
+}
